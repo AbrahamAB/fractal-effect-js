@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Open Sans, sans-serif;
+}
+
+#fractal {
+	background: black;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#controls {
+	background: #fff4;
+	border: 2px solid #fff8;
+	left: 20px;
+	padding: 10px;
+	position: absolute;
+	top: 20px;
+	width: 250px;
+}
+
+button {
+	cursor: pointer;
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding: 10px 40px;
+	width: 225px;
+}
+
+label, input {
+	color: white;
+	font-size: 20px;
+	width: 100%;
+}
+
+label {
+	font-size: 15px;
+	padding-left: 5px;
+	text-align: center;
+}
